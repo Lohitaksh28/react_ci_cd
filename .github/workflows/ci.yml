@@ -12,3 +12,4 @@ jobs:
             - uses: actions/setup-node@v4
             - run: node --version
             - uses: actions/checkout@v2
+            - run: npm install
