@@ -1,0 +1,12 @@
+name : "Sample React CI Pipeline"
+on:
+    push:
+        branches:
+            - main
+            - master
+
+jobs:
+    build-and-test:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/setup-node@v4
